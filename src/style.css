@@ -1,0 +1,114 @@
+body {
+    background-image: url(../images/backgroundWood.png);
+    background-attachment: fixed;
+    color: #222222;
+}
+
+p {
+    text-align: justify;
+}
+
+main {
+    border-radius: 2rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: rgba(255, 255, 255, 0.900);
+}
+
+#perfilImage:not(:hover) {
+    margin-top: 5vh;
+    width: 40vh;
+    transition: 0.5s;
+}
+
+#perfilImage:hover {
+    margin-top: 5vh;
+    width: 42vh;
+    transition: 0.5s;
+}
+
+.mainTitle {
+    font: bold 2.5rem Roboto, sans-serif;
+}
+
+#subtitle {
+    font: normal 1.25rem Roboto, sans-serif;
+}
+
+header, #topButtons, #lastButton, #lastMessage {
+    text-align: center;
+}
+
+.title {
+    text-align: left;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    font: bold 1.7rem Roboto, sans-serif;
+}
+
+.description {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 75vw;
+    font: normal 1.3rem Roboto, sans-serif;
+}
+
+.languagesImages:not(:hover) {
+    width: 3vw;
+    transition: 0.5s;
+}
+
+.languagesImages:hover {
+    transition: 0.5s;
+    width: 4vw;
+}
+
+.generalLogos {
+    margin-left: 10vw;
+}
+
+button {
+    padding: 2vh;
+    border-radius: 0.7rem;
+    background: rgba(192, 169, 169, 0);
+    width: 15vw;
+    font: normal 1.5rem Roboto, sans-serif;
+    opacity: 0.7;
+}
+
+#botButton {
+    margin-top: 1vh;
+    width: 61.2vw;
+}
+
+button:hover {
+    transition: 0.5s;
+    color: rgb(0, 127, 255);
+    border-color: rgb(0, 127, 255);
+    cursor: pointer;
+    opacity: 1;
+}
+
+footer {
+    background-color: #F2FAFC;
+    text-align: center;
+    font: bold 1rem Roboto, sans-serif;
+    color: #222222;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#cevLogo:not(:hover) {
+    height: 10vh;
+    margin-bottom: 2vh;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+#cevLogo:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
+    height: 11vh;
+    margin-bottom: 1vh;
+}
