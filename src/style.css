@@ -1,7 +1,12 @@
-body {
-    background-image: url(../images/backgroundWood.png);
-    background-attachment: fixed;
+* {
     color: #222222;
+    font: Roboto, sans-serif;
+}
+
+body {
+    background-image: url(../images/backgroundWood.jpg);
+    background-attachment: fixed;
+    height: 100%;
 }
 
 p {
@@ -9,10 +14,9 @@ p {
 }
 
 main {
-    border-radius: 2rem;
-    margin-left: 2vw;
-    margin-right: 2vw;
     background-color: rgba(255, 255, 255, 0.900);
+    border-radius: 1rem;
+    margin: 2vw;
 }
 
 #perfilImage:not(:hover) {
@@ -40,20 +44,27 @@ header, #topButtons, #lastButton, #lastMessage {
 }
 
 .title {
+    background-color: rgba(255, 255, 255, 0.50);
+    padding: 0.40vh 0.5rem 0.40vh 0.5rem;
+    margin: 12vh 7vw 2vh 7vw;
+    max-width: fit-content;
+    max-height: 12vh;
+    border-radius: 1rem;
     text-align: left;
-    margin-top: 10vh;
-    margin-left: 10vw;
     font: bold 1.4rem Roboto, sans-serif;
 }
 
 .description {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 1rem;
+    padding: 0.9rem;
+    margin: auto;
     width: 75vw;
-    font: normal 1.1rem Roboto, sans-serif;
+    font: normal 1.15rem Roboto, sans-serif;
 }
 
 .languagesImages:not(:hover) {
+    margin-bottom: 2vh;
     width: 2.5rem;
     transition: 0.5s;
 }
@@ -67,10 +78,10 @@ header, #topButtons, #lastButton, #lastMessage {
     margin-left: 10vw;
 }
 
-button{
+button {
     margin-top: 1vh;
     padding: 2vh;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     border-width: 0.15rem;
     border-color: #222222;
     background: rgba(192, 169, 169, 0);
@@ -82,7 +93,7 @@ button{
 #botButton {
     margin-top: 1vh;
     width: 56.8rem;
-    max-width: 75%;
+    max-width: 79%;
 }
 
 button:hover {
@@ -102,16 +113,20 @@ footer {
     border-bottom-right-radius: 2rem;
 }
 
-#lastMessage{
-    font-size: 2.2vh;
+#lastMessage {
+    margin-top: 2vh;
     margin-bottom: 10vh;
+    width: 56.8rem;
+    max-width: 75%;
+    font-size: 2.2vh;
+    padding: 0.2rem;
 }
 
-.agradecimento-div{
+.agradecimento-div {
     padding-top: 0.5vh;
 }
 
-.agradecimento{
+.agradecimento {
     font-size: 1.4rem;
 }
 
