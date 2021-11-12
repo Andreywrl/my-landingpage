@@ -58,8 +58,8 @@ header, #topButtons, #lastButton, #lastMessage {
     background-color: rgba(255, 255, 255, 0.50);
     border-radius: 1rem;
     padding: 0.9rem;
-    margin: auto;
-    width: 75vw;
+    margin: 0vh 7vw 0vh 7vw;
+    max-width: 80vw;
     font: normal 1.15rem Roboto, sans-serif;
 }
 
@@ -75,7 +75,7 @@ header, #topButtons, #lastButton, #lastMessage {
 }
 
 .generalLogos {
-    margin-left: 10vw;
+    margin-left: 8vw;
 }
 
 button {
@@ -114,12 +114,10 @@ footer {
 }
 
 #lastMessage {
-    margin-top: 2vh;
-    margin-bottom: 10vh;
-    width: 56.8rem;
-    max-width: 75%;
-    font-size: 2.2vh;
-    padding: 0.2rem;
+    margin: 2vh auto 10vh auto;
+    max-width: fit-content;
+    font-size: 2.5;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
 .agradecimento-div {
