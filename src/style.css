@@ -6,6 +6,7 @@ body {
 
 p {
     text-align: justify;
+    justify-content: center;
 }
 
 main {
@@ -43,24 +44,24 @@ header, #topButtons, #lastButton, #lastMessage {
     text-align: left;
     margin-top: 10vh;
     margin-left: 10vw;
-    font: bold 1.7rem Roboto, sans-serif;
+    font: bold 1.4rem Roboto, sans-serif;
 }
 
 .description {
     margin-left: 10vw;
     margin-right: 10vw;
     width: 75vw;
-    font: normal 1.3rem Roboto, sans-serif;
+    font: normal 1.1rem Roboto, sans-serif;
 }
 
 .languagesImages:not(:hover) {
-    width: 3vw;
+    width: 2.5rem;
     transition: 0.5s;
 }
 
 .languagesImages:hover {
     transition: 0.5s;
-    width: 4vw;
+    width: 3.3rem;
 }
 
 .generalLogos {
@@ -71,14 +72,15 @@ button {
     padding: 2vh;
     border-radius: 0.7rem;
     background: rgba(192, 169, 169, 0);
-    width: 15vw;
+    width: 14rem;
     font: normal 1.5rem Roboto, sans-serif;
     opacity: 0.7;
 }
 
 #botButton {
     margin-top: 1vh;
-    width: 61.2vw;
+    width: 56.8rem;
+    max-width: 75%;
 }
 
 button:hover {
@@ -96,6 +98,14 @@ footer {
     color: #222222;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+}
+
+.agradecimento-div{
+    padding-top: 0.5vh;
+}
+
+.agradecimento{
+    font-size: 1.4rem;
 }
 
 #cevLogo:not(:hover) {
