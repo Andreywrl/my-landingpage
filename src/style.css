@@ -67,9 +67,11 @@ header, #topButtons, #lastButton, #lastMessage {
     margin-left: 10vw;
 }
 
-button :not(:hover){
+button{
+    margin-top: 1vh;
     padding: 2vh;
     border-radius: 0.7rem;
+    border-width: 0.15rem;
     border-color: #222222;
     background: rgba(192, 169, 169, 0);
     width: 14rem;
