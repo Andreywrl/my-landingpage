@@ -115,7 +115,8 @@ footer {
 
 #lastMessage {
     margin: 2vh auto 10vh auto;
-    max-width: fit-content;
+    width: fit-content;
+    max-width: 79%;
     font-size: 2.5;
     padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
